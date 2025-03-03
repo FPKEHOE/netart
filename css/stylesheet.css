@@ -5,10 +5,11 @@ font-family: 'Conduit ITC Medium', sans-serif;
 font-family: 'Conduit ITC Medium', sans-serif;
 
   
-  h1 {
+  #title {
     font-family: "Be Vietnam Pro", sans-serif;
     font-weight: 400;
     font-style: normal;
+    color:blueviolet;
   }
   
   h2 {
