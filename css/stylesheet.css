@@ -46,7 +46,7 @@ font-family: 'Conduit ITC Medium', sans-serif;
 
 .play{
     grid-column: 2/ span 1;
-    width: 50px;
+    width: 80px;
 }
 
 .num{
