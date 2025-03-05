@@ -5,13 +5,22 @@ font-family: 'Conduit ITC Medium', sans-serif;
 font-family: 'Conduit ITC Medium', sans-serif;
 
   
-  #title {
+  h1{ /*I have to keep this additional h1 here or else the other one doesnt work*/
     font-family: "Be Vietnam Pro", sans-serif;
     font-weight: 400;
     font-style: normal;
     color:blueviolet;
   }
   
+  h1{
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #63637C;
+    font-size: 50px;
+    margin: auto;
+    text-align: center;
+  }
   
   body{
     background-color: #f5f5ff;
@@ -19,7 +28,7 @@ font-family: 'Conduit ITC Medium', sans-serif;
 
   p{
     font-family: "Be Vietnam Pro", sans-serif;
-    font-weight: 1000;
+    font-weight: 700;
     font-style: normal;
     font-size: 30px;
     color: #63637C;
@@ -48,6 +57,10 @@ font-family: 'Conduit ITC Medium', sans-serif;
 .play{
     grid-column: 2/ span 1;
     width: 80px;
+}
+
+.play:hover{
+  width: 90px;
 }
 
 .num{
