@@ -48,16 +48,14 @@ font-family: 'Conduit ITC Medium', sans-serif;
 
 .row{
   display: grid;
-  grid-template-columns: repeat(8, 1fr);
+  grid-template-columns: repeat(12, 1fr);
   grid-column-gap: 0px;
   grid-auto-flow: dense;
   margin: 0px 0px 0px 0px;
-  margin-left: 10%;
+  margin-left: 20%;
   margin-right: 10%;
   padding: 0px 0px 0px 0px;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #3D1742;
+
   
 
 }
@@ -67,7 +65,8 @@ font-family: 'Conduit ITC Medium', sans-serif;
     margin: 0px 0px 0px 0px;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 5px;
+    padding-left: 10px;
+    padding-right:10px;
 }
 
 .play:hover{
@@ -81,13 +80,13 @@ font-family: 'Conduit ITC Medium', sans-serif;
     border-width: 1px;
     border-color: #3D1742;
     margin: 0px 0px 0px 0px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     padding-left: 5px;
 }
 
 .title{
-      grid-column: 3/ span 3;
+      grid-column: 3/ span 4;
       text-align: left;
       border-style: solid;
       border-width: 1px;
@@ -100,7 +99,7 @@ font-family: 'Conduit ITC Medium', sans-serif;
 }
 
 .artist{
-  grid-column: 6/ span 2;
+  grid-column: 7/ span 3;
   text-align: left;
   border-style: solid;
   border-width: 1px;
@@ -110,3 +109,5 @@ font-family: 'Conduit ITC Medium', sans-serif;
   padding-bottom: 30px;
   padding-left: 5px;
 }
+
+
