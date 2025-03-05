@@ -6,7 +6,10 @@ body{
   width:2000px;
 }
 
-img{
-  width:700px;
-  margin-left:300px;
+.disappear {
+  animation: disappear 0s linear 1s forwards;
+}
+
+@keyframes disappear {
+  to {opacity:0;}
 }
