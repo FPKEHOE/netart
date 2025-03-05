@@ -14,7 +14,7 @@ font-family: 'Conduit ITC Medium', sans-serif;
   
   
   body{
-    background-color: f5f5ff;
+    background-color: #f5f5ff;
   }
 
   p{
@@ -22,6 +22,7 @@ font-family: 'Conduit ITC Medium', sans-serif;
     font-weight: 1000;
     font-style: normal;
     font-size: 30px;
+    color: #63637C;
   }
 
 
@@ -41,7 +42,7 @@ font-family: 'Conduit ITC Medium', sans-serif;
   grid-column-gap: 10px;
   grid-auto-flow: dense;
   grid-column: 2/ span 8;
-  padding-top: 10px;
+
 }
 
 .play{
