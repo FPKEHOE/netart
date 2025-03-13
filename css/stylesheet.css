@@ -20,7 +20,7 @@ font-family: 'Conduit ITC Medium', sans-serif;
     font-size: 50px;
     margin: auto;
     text-align: center;
-    margin-top:5%;
+    margin-top:2%;
   }
   
   body{
@@ -36,78 +36,63 @@ font-family: 'Conduit ITC Medium', sans-serif;
   }
 
 
+/*display: grid;
+grid-auto-flow: dense;
+grid-template-columns: repeat(5, 1fr);
+grid-column: 1/ span 1;
 
-  section{
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+*/
+
+  .entire{
     margin-top:5%;
     margin-bottom:5%;
-
   }
 
 .row{
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-column-gap: 0px;
-  grid-auto-flow: dense;
   margin: 0px 0px 0px 0px;
-  margin-left: 20%;
-  margin-right: 10%;
   padding: 0px 0px 0px 0px;
-
-  
-
+  display: flex;
+  flex-direction: row;
 }
 
 .play{
-    grid-column: 1/ span 1;
     margin: 0px 0px 0px 0px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right:10px;
 }
 
 .play:hover{
   width: 110px;
 }
 
-.num{
-    grid-column: 2/ span 1;
-    text-align: left;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #3D1742;
-    margin: 0px 0px 0px 0px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 5px;
-}
-
-.title{
-      grid-column: 3/ span 4;
-      text-align: left;
-      border-style: solid;
-      border-width: 1px;
-      border-color: #3D1742;
-      margin: 0px 0px 0px 0px;
-      padding-top: 30px;
-      padding-bottom: 30px;
-      padding-left: 5px;
-  
-}
-
-.artist{
-  grid-column: 7/ span 3;
-  text-align: left;
+.border{
   border-style: solid;
   border-width: 1px;
   border-color: #3D1742;
-  margin: 0px 0px 0px 0px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  padding-left: 5px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
 }
+
+
+.num{
+    text-align: left;
+    margin: 0px 0px 0px 0px;
+    font-size: 45px;
+    background-color: blanchedalmond;
+}
+
+.title{
+      text-align: left;
+      margin: 0px 0px 0px 0px;
+}
+
+.artist{
+  text-align: left;
+  margin: 0px 0px 0px 0px;
+}
+
+
 
 
