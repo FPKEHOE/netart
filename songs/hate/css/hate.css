@@ -2,7 +2,7 @@ body{
     background-color: #f5f5ff;
   }
 
-#playing{
+/*#playing{
   width:2000px;
 }
 
@@ -13,5 +13,10 @@ body{
 @keyframes disappear {
   to {opacity:0;}
 }
+  */
+
+  #yay{
+    margin-left: 500px;
+  }
 
 /*https://www.reddit.com/r/HTML/comments/buo5mj/how_to_make_a_gif_disappear_after_a_few_seconds/?captcha=1*/
