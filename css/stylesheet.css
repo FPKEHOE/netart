@@ -1,3 +1,24 @@
+
+/*
+display: grid;
+grid-auto-flow: dense;
+grid-template-columns: repeat(5, 1fr);
+grid-column: 1/ span 1;
+
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+flex-wrap: wrap;
+*/
+
+
+
+
+
+
+
+
+
 @import url('https://fonts.cdnfonts.com/css/conduit-itc-medium');
 font-family: 'Conduit ITC Medium', sans-serif;
                                                 
@@ -11,6 +32,10 @@ font-family: 'Conduit ITC Medium', sans-serif;
     font-style: normal;
     color:blueviolet;
   }
+
+    body{
+    background-color: #f5f5ff;
+  }
   
   h1{
     font-family: "Be Vietnam Pro", sans-serif;
@@ -23,76 +48,85 @@ font-family: 'Conduit ITC Medium', sans-serif;
     margin-top:2%;
   }
   
-  body{
-    background-color: #f5f5ff;
-  }
+
 
   p{
     font-family: "Be Vietnam Pro", sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 30px;
+    font-size: 20px;
     color: #3D1742;
   }
 
+  /*
 
-/*display: grid;
-grid-auto-flow: dense;
-grid-template-columns: repeat(5, 1fr);
-grid-column: 1/ span 1;
+.list{
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
 
-display: flex;
-flex-direction: column;
-justify-content: space-around;
-*/
+}
 
-  .entire{
-    margin-top:5%;
-    margin-bottom:5%;
+  .row{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #3D1742;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items:center;
+
   }
-
-.row{
-  margin: 0px 0px 0px 0px;
-  padding: 0px 0px 0px 0px;
-  display: flex;
-  flex-direction: row;
-}
-
-.play{
+  */
+  .play{
     margin: 0px 0px 0px 0px;
-}
-
-.play:hover{
-  width: 110px;
-}
-
-.border{
-  border-style: solid;
-  border-width: 1px;
-  border-color: #3D1742;
-  border-radius: 8px;
-  display: flex;
-  flex-direction: row;
-}
-
-
-.num{
-    text-align: left;
-    margin: 0px 0px 0px 0px;
-    font-size: 45px;
-    background-color: blanchedalmond;
-}
-
-.title{
+    background-color: blue;
+    width:60px;
+  }
+  
+  .play:hover{
+    width: 80px;
+  }
+  /*
+  
+  
+  
+  .num{
       text-align: left;
       margin: 0px 0px 0px 0px;
-}
+      background-color: blanchedalmond;
+  }
+  
+  .title{
+        text-align: left;
+        margin: 0px 0px 0px 0px;
+  }
+  
+  .artist{
+    text-align: left;
+    margin: 0px 0px 0px 0px;
+  }
+  */
 
-.artist{
-  text-align: left;
-  margin: 0px 0px 0px 0px;
-}
-
-
-
+  .list {
+    display: grid; /* grid containers */
+    grid-template-columns: repeat(4, 1fr); /* four columns */
+    grid-template-rows: repeat(5, 1fr); /* four rows */
+    grid-auto-flow: column; /* in column direction */
+    border: 1px solid black;
+    
+  }
+  
+  .column {
+    display: contents; /* the child elements would be grid items */
+    border: 1px solid black;
+  }
+  
+  .cell {
+    border: 1px solid black;
+    padding: 5px;
+  }
 
