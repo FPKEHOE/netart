@@ -1,131 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
 
-/*
-display: grid;
-grid-auto-flow: dense;
-grid-template-columns: repeat(5, 1fr);
-grid-column: 1/ span 1;
-
-display: flex;
-flex-direction: column;
-justify-content: space-around;
-flex-wrap: wrap;
-*/
-
-
-
-
-
-
-
-
-
-@import url('https://fonts.cdnfonts.com/css/conduit-itc-medium');
-font-family: 'Conduit ITC Medium', sans-serif;
-                                                
-@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-font-family: 'Conduit ITC Medium', sans-serif;
-
-  
-  h1{ /*I have to keep this additional h1 here or else the other one doesnt work*/
-    font-family: "Be Vietnam Pro", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color:blueviolet;
-  }
-
-    body{
-    background-color: #f5f5ff;
-  }
-  
-  h1{
-    font-family: "Be Vietnam Pro", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    color: #3D1742;
-    font-size: 50px;
-    margin: auto;
-    text-align: center;
-    margin-top:2%;
-  }
-  
-
-
-  p{
-    font-family: "Be Vietnam Pro", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 20px;
-    color: #3D1742;
-  }
-
-  /*
-
-.list{
-  display:flex;
-  flex-direction: column;
-  justify-content: flex-start;
-
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 900px;
+    width: 1440px;
+    background-color: #fff;
 }
 
-  .row{
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #3D1742;
+.question {
+    font-family: "Urbanist", sans-serif;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Table container */
+.table {
+    display: grid;
+    grid-template-columns: 42px 1fr 1fr; /* Play button, Title, Artist */
+    grid-auto-rows: 49px; /* Height per row */
+    width: 600px;
+    height: 246px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Row styling */
+.row {
+    display: contents; /* Allows direct grid placement */
+}
+
+/* Play button */
+.play {
+    width: 42px;
+    height: 42px;
+    background: #CAECFF;
     border-radius: 8px;
+    border: 1px solid #09F;
+}
+
+/* Title and artist styling */
+.title, .artist {
+    font-family: "Urbanist", sans-serif;
+    font-size: 18px;
+    background: #CAECFF;
+    border-radius: 8px;
+    border: 1px solid #09F;
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items:center;
-
-  }
-  */
-  .play{
-    margin: 0px 0px 0px 0px;
-    background-color: blue;
-    width:60px;
-  }
-  
-  .play:hover{
-    width: 80px;
-  }
-  /*
-  
-  
-  
-  .num{
-      text-align: left;
-      margin: 0px 0px 0px 0px;
-      background-color: blanchedalmond;
-  }
-  
-  .title{
-        text-align: left;
-        margin: 0px 0px 0px 0px;
-  }
-  
-  .artist{
-    text-align: left;
-    margin: 0px 0px 0px 0px;
-  }
-  */
-
-  .list {
-    display: grid; /* grid containers */
-    grid-template-columns: repeat(4, 1fr); /* four columns */
-    grid-template-rows: repeat(5, 1fr); /* four rows */
-    grid-auto-flow: column; /* in column direction */
-    border: 1px solid black;
-  }
-  
-  .column {
-    display: contents; /* the child elements would be grid items */
-    border: 1px solid black;
-  }
-  
-  .cell {
-    border: 1px solid black;
-    padding: 5px;
-  }
-
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
