@@ -1,75 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
-
-.header{
-  font-family: "Urbanist", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  color: black;
-  font-size: 36px;
-  text-align: center;
-  margin-top: 60px;
-}
-
-p{
-  font-family: "Urbanist", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 24px;
-  color: black;
-}
-
-
-.container{
-  display:flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  padding: 0px 0px 0px 0px;
-  margin-top: 50px;
-}
-
-.row{
-  display:flex;
-  flex-direction: row;
-  align-items: center;
-  margin-left: 40%;
-  margin-right: 40%;
-}
-
-.play{
-  width:42px;
-}
-.play:hover{
-  width: 100px;
-}
-
-.row p, .row img{
-  margin: 0;
-  padding: 0;
-  padding-left: 10px;
-  margin-left: 10px;
-}
-
-
-.bord{
-  background: #CAECFF;
-  border-radius: 8px;
+.square {
+  height: 200px;
+  width: 200px;
+  background-color: #555;
+  margin: 10px; /* Small space between squares */
+  border-radius: 20px;
   border: 1px solid #09F;
-  width: 545px;
-  margin-left: 10px;
-  padding-bottom: 5px;
-  padding-top: 5px;
 }
 
-.bord p{
-  display: inline-block;
-  margin:0;
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
-.title{
-  width: 307px;
-  margin: 0;
+.column {
+  display: flex;
+  flex-direction: column;
 }
 
+.specialsquare{
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  margin: 10px; /* Small space between squares */
+  border-radius: 20px;
+  border: 1px solid #09F;
+}
