@@ -44,6 +44,8 @@ p{
 }
 .play:hover{
   width: auto;
+  margin: 18px;
+
 }
 
 .row p, .row img{
