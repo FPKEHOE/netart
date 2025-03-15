@@ -1,56 +1,75 @@
 @import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
 
-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 900px;
-    width: 1440px;
-    background-color: #fff;
+.header{
+  font-family: "Urbanist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+  font-size: 36px;
+  text-align: center;
+  margin-top: 60px;
 }
 
-.question {
-    font-family: "Urbanist", sans-serif;
-    font-size: 36px;
-    text-align: center;
-    margin-bottom: 20px;
+p{
+  font-family: "Urbanist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  color: black;
 }
 
-/* Table container */
-.table {
-    display: grid;
-    grid-template-columns: 42px 1fr 1fr; /* Play button, Title, Artist */
-    grid-auto-rows: 49px; /* Height per row */
-    width: 600px;
-    height: 246px;
-    align-items: center;
-    justify-content: center;
+
+.container{
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px 0px 0px 0px;
+  margin-top: 50px;
 }
 
-/* Row styling */
-.row {
-    display: contents; /* Allows direct grid placement */
+.row{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 40%;
+  margin-right: 40%;
 }
 
-/* Play button */
-.play {
-    width: 42px;
-    height: 42px;
-    background: #CAECFF;
-    border-radius: 8px;
-    border: 1px solid #09F;
+.play{
+  width:42px;
+}
+.play:hover{
+  width: 80px;
 }
 
-/* Title and artist styling */
-.title, .artist {
-    font-family: "Urbanist", sans-serif;
-    font-size: 18px;
-    background: #CAECFF;
-    border-radius: 8px;
-    border: 1px solid #09F;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
+.row p, .row img{
+  margin: 0;
+  padding: 0;
+  padding-left: 10px;
+  margin-left: 10px;
 }
+
+
+.bord{
+  background: #CAECFF;
+  border-radius: 8px;
+  border: 1px solid #09F;
+  width: 545px;
+  margin-left: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.bord p{
+  display: inline-block;
+  margin:0;
+}
+
+.title{
+  width: 307px;
+  margin: 0;
+}
+
