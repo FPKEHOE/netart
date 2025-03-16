@@ -76,9 +76,9 @@ p{
 
 
 .play{
-  width:42px;
+  width:50px;
   transition: all 0.099s ease;
 }
 .play:hover{
-  width: 80px;
+  width: 110px;
 }
