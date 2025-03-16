@@ -1,8 +1,22 @@
+.row{
+  width:900px;
+}
+
 .square {
-  height: 200px;
-  width: 200px;
+  height: 250px;
+  width: 250px;
   background-color: #555;
   margin: 10px; /* Small space between squares */
+  border-radius: 20px;
+  border: 1px solid #09F;
+}
+
+.square1 {
+  height: 250px;
+  width: 250px;
+  background-color: #555;
+  margin: 10px; /* Small space between squares */
+  margin-right: 0;
   border-radius: 20px;
   border: 1px solid #09F;
 }
@@ -19,10 +33,26 @@
 }
 
 .specialsquare{
-  height: 200px;
-  width: 200px;
-  background-color: red;
+  height: 250px;
+  width: 250px;
+  background-color: #CAECFF;
   margin: 10px; /* Small space between squares */
   border-radius: 20px;
-  border: 1px solid #09F;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+
+}
+
+.note img{
+  width: 100px;
+  padding:0;
+  margin:0;
+}
+
+.specialsquare:hover{
+  width: 300px;
+  height: 300px;
+  margin-left: 0;
+ 
 }
