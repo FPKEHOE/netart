@@ -100,10 +100,14 @@ p{
 }
 
 .play{
-  width:42px;
+  width:90px;
   transition: all 0.099s ease;
 
 }
 .play:hover{
-  width: 80px;
+  width: 110px;
+}
+
+audio{
+  display: none;
 }
