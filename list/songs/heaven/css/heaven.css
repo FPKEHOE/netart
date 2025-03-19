@@ -32,6 +32,17 @@ body{
   padding:0;
 }
 
+.header1-5{
+  font-family: "Urbanist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: black;
+  margin:5px;
+  font-size: 24px;
+  text-align: left;
+  margin-left: 20px;
+}
 
 
 p{
