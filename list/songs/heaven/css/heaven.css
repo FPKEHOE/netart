@@ -4,16 +4,35 @@
 body{
   background-color: #CAECFF;
 }
-.header{
+.header1{
   font-family: "Urbanist", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
   color: black;
-  font-size: 36px;
-  text-align: center;
-  margin-top: 60px;
+  font-size: 24px;
+  text-align: left;
+  margin:0;
+  margin-top: 30px;
+  margin-left: 20px;
+  padding:0;
 }
+
+.header2{
+  font-family: "Urbanist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: black;
+  font-size: 24px;
+  text-align: left;
+  margin:0;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  padding:0;
+}
+
+
 
 p{
   font-family: "Urbanist", sans-serif;
@@ -89,16 +108,30 @@ p{
 
 
 
-.yay{
-  width:200px
+.yayhatedj{
+  width:160px;
+}
 
+
+.yayheav{
+  width:200px;
+}
+
+.yayrec{
+  width:180px;
+}
+
+.yaysmile{
+  width:280px;
 }
 
 .play{
   width:50px;
   transition: all 0.099s ease;
-
 }
+
+
+
 .play:hover{
   width: 110px;
 }
