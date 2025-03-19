@@ -1,0 +1,53 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
+
+h1{
+  font-family: "Urbanist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+  font-size: 30px;
+  margin-left: 100px;
+  margin-right: 50px;
+  margin-top: 100px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+body{
+    background-color: #8E8A86;
+}
+
+.square {
+  height: 100x;
+  width: 100px;
+  background-color: red;
+  margin: 10px; /* Small space between squares */
+  border-radius: 50px;
+  transition: all 0.099s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  text-decoration: none;
+  font-family: "Urbanist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 30px;
+  margin-top: 30px;
+}
+
+div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+}
+.square:hover{
+  width: 120px;
+  height: 120px;
+  border-radius: 70px;
+ 
+}
+

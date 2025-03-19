@@ -1,16 +1,20 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
 
-p{
+h1{
   font-family: "Urbanist", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
   color: black;
-  font-size: 36px;
-  margin: 15px;
+  font-size: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 40px;
   text-align: center;
+  margin-bottom: 30px;
 }
+
 
 .square {
   height: 250px;
@@ -18,13 +22,24 @@ p{
   background-color: #8E8A86;
   margin: 10px; /* Small space between squares */
   border-radius: 20px;
+  transition: all 0.099s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  text-decoration: none;
+  font-family: "Urbanist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+  font-size: 30px;
 }
 
 
 .row {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
@@ -35,28 +50,9 @@ p{
   align-items: center;
 }
 
-.specialsquare{
-  height: 250px;
-  width: 250px;
-  background-color: #CAECFF;
-  margin: 10px; /* Small space between squares */
-  border-radius: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center; 
-
-}
-
-.note img{
-  width: 100px;
-  padding:0;
-  margin:0;
-}
-
-.specialsquare:hover{
+.square:hover{
   width: 300px;
   height: 300px;
-  margin-left: 10px;
-  
  
 }
+
